@@ -30,4 +30,17 @@ Capex-tem gastos com investimentos iniciais em infraestrutura física, como serv
 Opex- tem gastos operacionais contínuos, como assinaturas de serviços em nuvem,pagamento conforme o uso (pay-as-you-go) e sem custos iniciais elevados.Sua manutenção e atualizações gerenciadas pelo provedor.Tem flexibilidade para escalar recursos conforme a demanda com redução de custos com infraestrutura ociosa sem preocupação com gerenciamento de hardware.seu beneficios são a redução de Custos Iniciais sem necessidade de investir em hardware.Escalabilidade: Aumentar ou diminuir recursos conforme a demanda com atualizações Automáticas o Azure gerencia patches e atuallizações de segurança tem pagamento mensal ou por uso, facilitando o planejamento financeiro.
 
 resumindo oque aprendi a computação em nuvem oferece flexibilidade, escalabilidade e redução de custos, com modelos como nuvem pública, privada e híbrida atendendo a diferentes necessidades.No Microsoft Azure, a transição de Capex para Opex permite que as empresas reduzam custos iniciais, otimizem operações e foquem em inovação, sem se preocupar com a infraestrutura física.Escolher o modelo de nuvem e a estratégia de gastos entre Capex e Opex depende das necessidades específicas de cada organização, mas a tendência é a adoção de modelos baseados em Opex para maior eficiência e competitividade.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+dentro do modelo de responsabilidade compartilhada temos os 3 grupos IaaS, PaaS e SaaS são modelos de serviço em nuvem que oferecem diferentes níveis de controle, flexibilidade e gerenciamento para os usuários. Onde cada um atende a necessidades específicas de infraestrutura, desenvolvimento e aplicações.
+
+1.IaaS ou infraestrutura como Serviço fornece infraestrutura de TI básica, como servidores virtuais, armazenamento, redes e sistemas operacionais, como um serviço sob demanda.nesse modelo nos temos mais acesso de personalização daquele recurso.
+2.PaaS ou plataforma como Serviço fornece um ambiente completo e elimina a necessidade de gerenciamento de servidores e sistemas operacionais permitindo que os desenvolvedores se concentrem na criação de software. 
+3.SaaS ou Software como Serviço fornece aplicações completas em nuvem qu podem ser acessadas por navegador ou APIs.nesse serviço o usuário só precisa se preocupar com a utilização do serviço pois o provedor de nuvem gerencia e faz a manutenção.
+
+O modelo de responsabilidade compartilhada define as responsabilidades entre o provedor de nuvem e o cliente.Esse modelo varia dependendo do tipo de serviço em uso no caso IaaS, PaaS ou SaaS. 
+
+-no IaaS o provedor cuida da segurança física dos data centers, servidores, redes e o cliente e responsável por sistemas operacionais,aplicativos,dados ,configurações de rede e segurança e identidade
+-no PaaS o provedor de nuvem cuida da infraestrutura,do sistema operacional,ferramentas de desenvolvimento e o cliente e responsável pelos aplicativos,  dados que armazena e as configurações de de rede.
+-no SaaS o provedor cuida de tudo,de todo o gerenciamento da plataforma, da infraestrutura até o software e o cliente e responsável por Gerenciar o acesso,os dados e acessos.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
