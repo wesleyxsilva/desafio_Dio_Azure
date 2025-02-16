@@ -43,4 +43,15 @@ O modelo de responsabilidade compartilhada define as responsabilidades entre o p
 -no PaaS o provedor de nuvem cuida da infraestrutura,do sistema operacional,ferramentas de desenvolvimento e o cliente e responsável pelos aplicativos,  dados que armazena e as configurações de de rede.
 -no SaaS o provedor cuida de tudo,de todo o gerenciamento da plataforma, da infraestrutura até o software e o cliente e responsável por Gerenciar o acesso,os dados e acessos.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+as regiões são compostas de um ou mais datacenters que fornecem flexibilidade e escala para reduzir a latência do cliente e preservam a residencia dos dados.
+são organizados em regiões geográficas em pares de regiões de no minimo de 300 milhas e cada região é emparelhada com outra região na mesma área g eográfica.Assim garante alta disponibilidade garantindo continuidade de negócios em caso de desastres naturais, falhas de hardware ou interrupções 
+Pares de regiões são duas regiões dentro da mesma geografia que são emparelhadas para garantir a continuidade dos negócios e a recuperação em caso de desastres. 
+Regiões soberanas são áreas que atendem a requisitos legais e de conformidade, como o Azure Governamental.
 
+Zonas de disponibilidade são locais físicos separados dentro de uma região que são protegidos contra falhas.
+Datacenters são instalações físicas que abrigam os servidores e tambem equpamentos de rede.
+Recursos são serviços individuais como máquinas virtuais e contas de armazenamento.
+Grupos de recursos são contêineres que mantêm recursos relacionados para uma solução do Azure.
+Uma assinatura é uma unidade lógica de serviços que está vinculada a uma conta do Azure. 
+Grupos de gerenciamento são ferramentas uasdas para organizar e gerenciar assinaturas do Azure permitindo aplicar políticas, permissões e governança de maneira consistente, ou seja simplifica o gerenciamento de recursos em ambientes complexos.
+Hierarquia de grupos de recursos, assinaturas e grupos de gerenciamento se referem à organização e estrutura de como os recursos como assinaturas e grupos de gerenciamento são organizados dentro de uma conta do Azure para facilitar a gestão e a governança.
